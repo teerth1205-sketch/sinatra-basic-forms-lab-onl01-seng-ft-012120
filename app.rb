@@ -7,5 +7,7 @@ get '/' do
 end 
 
 get '/new' do
-  erb
+  erb :create_puppy
 end
+
+get ''
